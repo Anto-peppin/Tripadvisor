@@ -900,6 +900,15 @@ footer h1 {
 @media screen and (max-width: 999px) {
   .footerbottom {
     flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .footerbottom__leftbottom p{
+    font-size: small;
+   
+
+  }
+  .footerbottom__left{
+    width: 100%;
   }
   .footerbottom__right {
     width: 100%;
@@ -959,6 +968,16 @@ footer h1 {
     width: 90%;
   }
   .worldbest {
+    width: 90%;
+  }
+  .cover .cover2{
+    width: 100%;
+
+  }
+  .summa .cover2{
+    width: 90%;
+  }
+  .innercontainor{
     width: 90%;
   }
   .wanderer {
