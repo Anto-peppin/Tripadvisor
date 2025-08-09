@@ -777,13 +777,13 @@ footer {
 }
 .footertop {
   display: flex;
-  gap: 40px;
+  gap: 10px 40px;
   flex-wrap: wrap;
   margin-bottom: 20px;
   position: relative;
 }
 .footertopconteiner h5 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   cursor: pointer;
   font-size: larger;
   font-weight: 400;
@@ -794,10 +794,11 @@ footer {
   cursor: pointer;
   position: relative;
   z-index: 2;
+    margin-bottom: 2px;
 }
 .footertopconteiner p:hover {
   text-decoration: underline;
-  margin-bottom: 5px;
+
 }
 footer h1 {
   position: absolute;
